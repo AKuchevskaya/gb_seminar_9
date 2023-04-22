@@ -1,0 +1,15 @@
+/Users/alenakucevskaa/Desktop/gb_seminar_9/bin/Debug/net6.0/gb_seminar_9
+/Users/alenakucevskaa/Desktop/gb_seminar_9/bin/Debug/net6.0/gb_seminar_9.deps.json
+/Users/alenakucevskaa/Desktop/gb_seminar_9/bin/Debug/net6.0/gb_seminar_9.runtimeconfig.json
+/Users/alenakucevskaa/Desktop/gb_seminar_9/bin/Debug/net6.0/gb_seminar_9.dll
+/Users/alenakucevskaa/Desktop/gb_seminar_9/bin/Debug/net6.0/gb_seminar_9.pdb
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.csproj.AssemblyReference.cache
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.AssemblyInfoInputs.cache
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.AssemblyInfo.cs
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.csproj.CoreCompileInputs.cache
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.dll
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/refint/gb_seminar_9.dll
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.pdb
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/gb_seminar_9.genruntimeconfig.cache
+/Users/alenakucevskaa/Desktop/gb_seminar_9/obj/Debug/net6.0/ref/gb_seminar_9.dll

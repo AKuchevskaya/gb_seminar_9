@@ -4,6 +4,18 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+Console.Write("Введите число N: ");
+int N = Int16.Parse(Console.ReadLine()!);
+Console.WriteLine(GetNumbers(N, 1));
+
+//--------------Рекурсивный метод------------
+string GetNumbers(int start, int end)
+{
+    if (start==end) return end.ToString();
+    return (start + ", " + GetNumbers(start-1, end));
+}
+
+
 // Задача 66: Выполнить с помощью рекурсии.Задайте значения M и N. 
 // Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 

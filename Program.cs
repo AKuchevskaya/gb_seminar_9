@@ -16,27 +16,45 @@
 // }
 
 
-// Задача 66: Выполнить с помощью рекурсии.Задайте значения M и N. 
-// Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+// // Задача 66: Выполнить с помощью рекурсии.Задайте значения M и N. 
+// // Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 
-// M = 1; N = 15 -> 120
-// M = 4; N = 8. -> 30
+// // M = 1; N = 15 -> 120
+// // M = 4; N = 8. -> 30
 
-Console.Write("Введите число M: ");
-int M = Int16.Parse(Console.ReadLine()!);
+// Console.Write("Введите число M: ");
+// int M = Int16.Parse(Console.ReadLine()!);
 
-Console.Write("Введите число N: ");
-int N = Int16.Parse(Console.ReadLine()!);
-Console.WriteLine($"M = {M}; N = {N}. -> {GetNumbers(M, N)}");
+// Console.Write("Введите число N: ");
+// int N = Int16.Parse(Console.ReadLine()!);
+// Console.WriteLine($"M = {M}; N = {N}. -> {GetNumbers(M, N)}");
 
-//--------------Рекурсивный метод------------
-int GetNumbers(int a, int b)
-{
-    if (a == b) return a;
-    return (GetNumbers(a + 1, b) + a);
-}
+// //--------------Рекурсивный метод------------
+// int GetNumbers(int a, int b)
+// {
+//     if (a == b) return a;
+//     return (GetNumbers(a + 1, b) + a);
+// }
 
 // Задача 68: Выполнить с помощью рекурсии.Напишите программу вычисления функции Аккермана 
 // с помощью рекурсии. Даны два неотрицательных числа m и n.
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
+Console.Write("Введите число M: ");
+int M = Int16.Parse(Console.ReadLine()!);
+
+Console.Write("Введите число N: ");
+int N = Int16.Parse(Console.ReadLine()!);
+Console.WriteLine($"m = {M}; n = {N}. -> A(m, n) = {Akkerman(M, N)}");
+
+// функция Аккермана через рекурсию
+int Akkerman(int n, int m)
+{
+    if (n == 0)
+        return m + 1;
+    else
+      if ((n != 0) && (m == 0))
+        return Akkerman(n - 1, 1);
+    else
+        return Akkerman(n - 1, Akkerman(n, m - 1));
+}
